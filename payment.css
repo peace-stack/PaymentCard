@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+  margin-left: 30%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+@font-face {
+  font-family: Mulish;
+  src: url(fonts/Mulish-Black.ttf);
+}
+@font-face {
+  font-family: Mulish-Light;
+  src: url(fonts/Mulish-Light.ttf);
+}
+
+@font-face {
+  font-family: Mulish-Medium;
+  src: url(fonts/Mulish-Medium.ttf);
+}
+
+
+.card-body{
+  width: 618px;
+  height: 731px;
+  background:linear-gradient(119.36deg, #E9E8FF 0%, #E7F3FF 100%); 
+  border-radius: 49px;
+}
+
+
+#inner-body{
+  position: absolute;
+  background-color: yellow;
+  height: 731px;
+  width: 498px;
+  border-radius:30px;
+  box-shadow:0px 34px 94px -30px #B3C7E3;
+  background: #FFFFFF;
+  margin-left:60px;
+  margin-right:60px;
+  margin-top: 60px;
+ 
+}
+
+#heading1 {
+  padding-left: 50px;
+  padding-top: 60px;
+  width: 113px;
+  height: 50px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 50px;
+  color: #292E5A
+
+}
+
+#heading2{
+  padding-left: 50px;
+  padding-top: 15px;
+  font-family: 'Mulish-Medium';
+  font-style: bold;
+  font-weight:200;
+  font-size: 18px;
+  line-height: 23px;
+  color: #292E5A;
+
+}
+
+.button{
+  width: 385px;
+  height: 71px;
+  padding: 24px;
+  gap: 10px;
+  background: linear-gradient(96.58deg, #5FF489 0%, #79F4F4 100%);
+  border-radius: 8px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+.button-text{
+  font-family: 'Mulish-Medium';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22.59px;
+  color: #292E5A;
+ 
+}
+
+#paragraph1{
+  padding-top: 17px;
+  padding-left: 50px;
+  font-family: 'Mulish-Medium';
+  font-size: 18px;
+  line-height: 22.59px;
+}
+
+
+.ticks{
+  padding-left: 50px;
+  padding-top: 17px;
+  font-family: 'Mulish-Medium';
+  font-size: 18px;
+  line-height: 22.59px;
+  font-weight: bold;
+}
+
+.tick-alignment{
+  display: flex;
+  ;
+}
+
+
+.circle{
+  width: 35px;
+  height: 35px;
+  border-radius: 59.1379px;
+  background: linear-gradient(119.36deg, #E9E8FF 0%, #E7F3FF 100%);
+  margin-right: 10px;
+
+
+}
+
+.underlines{
+  text-decoration-line: underline;
+}
+
+
+#rectangle{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 388px;
+  height: 134px;
+  background: #F3F5FF;
+  border-radius: 8px;
+}
+.box-text{
+  padding-left: 12px;
+  padding-top: 15px;
+  font-family: 'Mulish-Medium';
+  font-size: 18px;
+  line-height: 22.59px;
+  font-weight: bold;
+}
+
+
+.rectangle-buttons{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+padding-top: 10px;
+margin-top: 10px;
+gap: 8px
+
+}
+#button2{
+  width: 225px;
+  height: 60px;
+  background:#F3F5FF ;
+  border:1px solid #B3C7E3;
+  border-radius: 8px;
+}
+
+.button2-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 15px;
+  color: #292E5A;
+  font-family: 'Mulish-Medium';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+}
+
+#button3{
+  width: 126px;
+  height: 60px;
+  background:#FFFFFF ;
+  border-radius: 8px;
+}
+
+
+#last-button{
+    width: 385px;
+    height: 71px;
+    padding: 24px;
+    gap: 10px;
+    font-family: 'Mulish-Medium';
+    font-size:18px;
+    font-weight: 700;
+    background: linear-gradient(96.58deg, #9CC4FF 0%, #B4A8FF 100%);
+    border-radius: 8px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+
+.button-text23{
+ text-align: center;
+ padding: 15px;
+  font-family: 'Mulish-Medium';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #292E5A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
